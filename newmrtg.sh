@@ -26,5 +26,5 @@ echo "Adding $3 to MRTG"
 "$NICE" "$MRTG" "$WORKDIR"/"$2".cfg 2>&1 | cat /dev/null
 sleep 1
 "$NICE" "$MRTG" "$WORKDIR"/"$2".cfg 2>&1 | cat /dev/null
-echo -e "\n$3 successfully added to MRTG"
+echo -e "$3 successfully added to MRTG"
 exit 0
